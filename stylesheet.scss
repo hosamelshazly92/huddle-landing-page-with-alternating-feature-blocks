@@ -97,4 +97,46 @@ body {
             }
         }
     }
+    
+    main {
+        section {
+            padding: 145px 80px;
+            
+            .label-1 {
+                margin: 15px auto;
+                padding: 60px;
+                border-radius: 15px;
+                box-shadow: 2px 2px 10px $Grayish-Blue;
+                overflow: hidden;
+                
+                .right {
+                    float: right;
+                    width: 40%;
+                    
+                    img {
+                        height: 340px;
+                    }
+                }
+                
+                .left {
+                    float: left;
+                    width: 60%;
+                    text-align: left;
+                    margin-top: 100px;
+                    
+                    h3 {
+                        font-family: $headings-font-family;
+                        font-size: 1.5rem;
+                    }
+                    
+                    p {
+                        font-size: 1rem;
+                        line-height: 25px;
+                        margin-top: 20px;
+                        padding-right: 25%;
+                    }
+                }
+            }
+        }
+    }
 }
