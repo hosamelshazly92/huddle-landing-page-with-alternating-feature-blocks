@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body header .container-header .bottom .left button, body header .container-header .top button {
+body main section .label-4 button, body header .container-header .bottom .left button, body header .container-header .top button {
   width: 200px;
   height: 50px;
   border: none;
@@ -157,6 +157,20 @@ body main section .label-3 .left p {
   font-size: 0.8rem;
   line-height: 20px;
   margin-top: 10px;
+}
+body main section .label-4 {
+  margin-top: 160px;
+  padding: 60px 160px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px #ebfbff, 1px 1px 2px #808d99;
+  overflow: hidden;
+  text-align: center;
+}
+body main section .label-4 button {
+  width: 60%;
+  background-color: #ff52bf;
+  color: #ebfbff;
+  margin-top: 25px;
 }
 
 /*# sourceMappingURL=compiled.css.map */
