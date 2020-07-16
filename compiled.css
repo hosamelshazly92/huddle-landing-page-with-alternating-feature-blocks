@@ -27,7 +27,7 @@ body header {
   background-color: #ebfbff;
 }
 body header .container-header {
-  padding: 50px 80px;
+  padding: 50px 100px;
 }
 body header .container-header .top img {
   height: 40px;
@@ -38,17 +38,19 @@ body header .container-header .top button {
 body header .container-header .bottom {
   clear: both;
   overflow: hidden;
-  padding-top: 70px;
+  padding-top: 80px;
 }
 body header .container-header .bottom .left {
   float: left;
   width: 50%;
-  padding-top: 80px;
   padding-right: 10%;
 }
+body header .container-header .bottom .left h1 {
+  font-size: 1.6rem;
+}
 body header .container-header .bottom .left p {
-  font-size: 1rem;
-  margin-top: 30px;
+  font-size: 0.8rem;
+  margin-top: 20px;
 }
 body header .container-header .bottom .left button {
   width: 280px;
@@ -56,7 +58,7 @@ body header .container-header .bottom .left button {
   font-size: 0.8rem;
   font-weight: 400;
   background-color: #ff52bf;
-  margin-top: 30px;
+  margin: 20px 0;
 }
 body header .container-header .bottom .right {
   float: right;
@@ -66,9 +68,10 @@ body header .container-header .bottom .right img {
   width: 100%;
 }
 body main section {
-  padding: 130px 80px;
+  padding: 130px 100px;
 }
 body main section .label-1 {
+  background-color: #fff;
   margin: 30px auto;
   padding: 60px;
   border-radius: 15px;
@@ -99,6 +102,7 @@ body main section .label-1 .left p {
   margin-top: 10px;
 }
 body main section .label-2 {
+  background-color: #fff;
   margin: 30px auto;
   padding: 60px;
   border-radius: 15px;
@@ -129,6 +133,7 @@ body main section .label-2 .right p {
   margin-top: 10px;
 }
 body main section .label-3 {
+  background-color: #fff;
   margin: 30px auto;
   padding: 60px;
   border-radius: 15px;
@@ -159,18 +164,45 @@ body main section .label-3 .left p {
   margin-top: 10px;
 }
 body main section .label-4 {
-  margin-top: 160px;
-  padding: 60px 160px;
+  width: 80%;
+  background-color: #fff;
+  margin: 160px auto -200px auto;
+  padding: 60px;
   border-radius: 15px;
-  box-shadow: 1px 1px 10px #ebfbff, 1px 1px 2px #808d99;
-  overflow: hidden;
+  box-shadow: 1px 1px 4px #00252e;
   text-align: center;
+  overflow: hidden;
+  position: relative;
 }
 body main section .label-4 button {
-  width: 60%;
+  width: 50%;
   background-color: #ff52bf;
   color: #ebfbff;
-  margin-top: 25px;
+  margin-top: 40px;
+}
+body footer {
+  padding: 170px 100px 60px 100px;
+  color: #ebfbff;
+  background-color: #00252e;
+}
+body footer .top {
+  width: 100%;
+  display: block;
+}
+body footer .top img {
+  height: 40px;
+}
+body footer .mid {
+  float: left;
+  width: 25%;
+  display: inline-block;
+}
+body footer .bottom {
+  clear: both;
+  text-align: right;
+  width: 100%;
+  display: block;
+  font-size: 0.8rem;
 }
 
 /*# sourceMappingURL=compiled.css.map */

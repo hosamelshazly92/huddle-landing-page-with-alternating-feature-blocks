@@ -46,7 +46,7 @@ body {
         background-color: $Very-Pale-Cyan;
 
         .container-header {
-            padding: 50px 80px;
+            padding: 50px 100px;
 
             .top {
                 img {
@@ -62,17 +62,20 @@ body {
             .bottom {
                 clear: both;
                 overflow: hidden;
-                padding-top: 70px;
+                padding-top: 80px;
 
                 .left {
                     float: left;
                     width: 50%;
-                    padding-top: 80px;
                     padding-right: 10%;
+                    
+                    h1 {
+                        font-size: 1.6rem; 
+                    }
 
                     p {
-                        font-size: 1rem;
-                        margin-top: 30px;
+                        font-size: 0.8rem;
+                        margin-top: 20px;
                     }
 
                     button {
@@ -82,7 +85,7 @@ body {
                         font-size: 0.8rem;
                         font-weight: 400;
                         background-color: $Pink;
-                        margin-top: 30px;
+                        margin: 20px 0;
                     }
                 }
 
@@ -100,9 +103,10 @@ body {
 
     main {
         section {
-            padding: 130px 80px;
+            padding: 130px 100px;
 
             .label-1 {
+                background-color: $White;
                 margin: 30px auto;
                 padding: 60px;
                 border-radius: 15px;
@@ -139,6 +143,7 @@ body {
             }
 
             .label-2 {
+                background-color: $White;
                 margin: 30px auto;
                 padding: 60px;
                 border-radius: 15px;
@@ -175,6 +180,7 @@ body {
             }
 
             .label-3 {
+                background-color: $White;
                 margin: 30px auto;
                 padding: 60px;
                 border-radius: 15px;
@@ -211,21 +217,53 @@ body {
             }
 
             .label-4 {
-                margin-top: 160px;
-                padding: 60px 160px;
+                width: 80%;
+                background-color: $White;
+                margin: 160px auto -200px auto;
+                padding: 60px;
                 border-radius: 15px;
-                box-shadow: 1px 1px 10px $Very-Pale-Cyan, 1px 1px 2px $Grayish-Blue;
-                overflow: hidden;
+                box-shadow: 1px 1px 4px $Very-Dark-Cyan;
                 text-align: center;
+                overflow: hidden;
+                position: relative;
 
                 button {
                     @extend %btn;
-                    width: 60%;
+                    width: 50%;
                     background-color: $Pink;
                     color: $Very-Pale-Cyan;
-                    margin-top: 25px;
+                    margin-top: 40px;
                 }
             }
+        }
+    }
+    
+    footer {
+        padding: 170px 100px 60px 100px;
+        color: $Very-Pale-Cyan;
+        background-color: $Very-Dark-Cyan;
+        
+        .top {
+            width: 100%;
+            display: block;
+            
+            img {
+                height: 40px;
+            }
+        }
+        
+        .mid {
+            float: left;
+            width: (100% / 4);
+            display: inline-block;
+        }
+        
+        .bottom {
+            clear: both;
+            text-align: right;
+            width: 100%;
+            display: block;
+            font-size: 0.8rem;
         }
     }
 }
