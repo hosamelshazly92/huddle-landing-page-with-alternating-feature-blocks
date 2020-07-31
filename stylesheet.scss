@@ -426,16 +426,13 @@ body {
                 }
 
                 .label-2 {
-                    background-color: $White;
                     margin: 80px auto;
-                    padding: 60px;
-                    border-radius: 15px;
-                    box-shadow: 1px 1px 10px $Very-Pale-Cyan, 1px 1px 2px $Grayish-Blue;
-                    overflow: hidden;
+                    padding: 110px;
+                    border-radius: 40px;
 
                     .left {
-                        float: left;
-                        width: 40%;
+                        float: none;
+                        width: 100%;
 
                         img {
                             width: 100%;
@@ -443,21 +440,21 @@ body {
                     }
 
                     .right {
-                        float: right;
-                        width: 60%;
-                        text-align: left;
-                        margin-top: 50px;
-                        padding-left: 15%;
+                        float: none;
+                        width: 100%;
+                        text-align: center;
+                        margin-top: 120px;
+                        padding-left: 0;
 
                         h3 {
-                            font-family: $headings-font-family;
-                            font-size: 1.2rem;
+                            font-size: 3rem;
                         }
 
                         p {
-                            font-size: 0.8rem;
-                            line-height: 20px;
-                            margin-top: 10px;
+                            color: $Grayish-Blue;
+                            font-size: 1.6rem;
+                            line-height: 1.8;
+                            margin-top: 20px;
                         }
                     }
                 }
